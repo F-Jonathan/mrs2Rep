@@ -34,9 +34,7 @@ jobs:
      
      - name: git clone
         run: |
-          cd git/
-          git clone  https://github.com/lamastex/mrs2.git
-          cd mrs2/mrs-2.0/
+          cd git/mrs2/mrs-2.0/
      - name: bootstrap and configure
         run: |
           ./bootstrap 
